@@ -5,7 +5,7 @@ A implement of optimization of glm via coordinate descent [[1]](#1).
 ### Usage
 
 ```
-model = LogisticRegression()
+model = logisticRegression()
 model.fit(X_train, y_train)
 model.select('bic')
 model.score(X_test, y_test)
